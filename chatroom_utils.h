@@ -50,4 +50,7 @@ int HandlePublicMessage(void);
 int SendUserList(void);
 int HandlePrivateMessage(void);
 int DisconnectUser(void);
+void *HandleClientMsg(void *args);
+void *SendServerStatus(void *args);
+void *CheckClientStatus(void *args);
 #endif
